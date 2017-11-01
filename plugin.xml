@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
+        id="ng.com.idempotent.plugin.barcodescanner"
+        version="0.0.1">
+
+  <name>BarcodeScanner</name>
+
+  <engines>
+    <engine name="cordova" version=">=3.4.0"/>
+  </engines>
+
+  <asset src="www/barcodescanner.js" target="js/barcodescanner.js"/>
+
+  <js-module src="www/barcodescanner.js" name="barcodescanner">
+    <clobbers target="BarcodeScanner" />
+  </js-module>
+
+  <platform name="android">
+
+    <config-file target="res/xml/config.xml" parent="/*">
+      <feature name="BarcodeScanner">
+        <param name="android-package" value="ng.com.idempotent.plugin.barcodescanner.BarcodeScanner"/>
+      </feature>
+    </config-file>
+
+    <source-file src="src/android/BarcodeScanner.java" target-dir="src/ng/com/idempotent/plugin/barcodescanner/"/>
+  </platform>
+</plugin>

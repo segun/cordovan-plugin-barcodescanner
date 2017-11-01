@@ -1,0 +1,100 @@
+{
+    "_args": [
+        [{
+                "raw": "cordova-plugin-barcodescanner",
+                "scope": null,
+                "escapedName": "cordova-plugin-barcodescanner",
+                "name": "cordova-plugin-barcodescanner",
+                "rawSpec": "",
+                "spec": "latest",
+                "type": "tag"
+            },
+            "/Users/aardvocate/src/XendBit/node_modules"
+        ]
+    ],
+    "_from": "cordova-plugin-barcodescanner@latest",
+    "_id": "cordova-plugin-barcodescanner@0.0.1",
+    "_inCache": true,
+    "_installable": true,
+    "_location": "/cordova-plugin-barcodescanner",
+    "_nodeVersion": "4.5.0",
+    "_npmOperationalInternal": {
+        "host": "s3://npm-registry-packages",
+        "tmp": "tmp/cordova-plugin-barcodescanner-0.0.1.tgz_1499722754529_0.9086798597127199"
+    },
+    "_npmUser": {
+        "name": "aardvocate",
+        "email": "akintayo.segun@gmail.com"
+    },
+    "_npmVersion": "4.0.2",
+    "_phantomChildren": {},
+    "_requested": {
+        "raw": "cordova-plugin-barcodescanner",
+        "scope": null,
+        "escapedName": "cordova-plugin-barcodescanner",
+        "name": "cordova-plugin-barcodescanner",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/cordova-plugin-fingerprint-aio/-/cordova-plugin-fingerprint-aio-1.2.1.tgz",
+    "_shasum": "4ee363a442ca1131bf64ce3fc4b7447e5ebfa0bf",
+    "_shrinkwrap": null,
+    "_spec": "cordova-plugin-barcodescanner",
+    "_where": "/Users/aardvocate/src/XendBit/node_modules",
+    "author": {
+        "name": "Niklas Merz"
+    },
+    "bugs": {
+        "url": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio/issues"
+    },
+    "cordova": {
+        "id": "cordova-plugin-barcodescanner",
+        "platforms": [
+            "android"
+        ]
+    },
+    "dependencies": {
+
+    },
+    "description": "Cordova plugin to use Barcode scanner on android",
+    "devDependencies": {
+
+    },
+    "directories": {},
+    "dist": {
+        "shasum": "4ee363a442ca1131bf64ce3fc4b7447e5ebfa0bf",
+        "tarball": "https://registry.npmjs.org/cordova-plugin-fingerprint-aio/-/cordova-plugin-fingerprint-aio-1.2.1.tgz"
+    },
+    "gitHead": "e5a31a76b3bdf7b15e8809984495668d158ee74e",
+    "homepage": "https://github.com/niklasmerz/cordova-plugin-fingerprint-aio#readme",
+    "keywords": [
+        "cordova",
+        "plugin",
+        "android",
+        "fingerprint",
+        "authentication",
+        "ecosystem:cordova",
+        "cordova-android",
+        "cordova-ios",
+        "ios"
+    ],
+    "license": "MIT",
+    "maintainers": [{
+        "name": "niklasmerz",
+        "email": "NiklasMerz@gmx.net"
+    }],
+    "name": "cordova-plugin-fingerprint-aio",
+    "optionalDependencies": {},
+    "readme": "ERROR: No README data found!",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/niklasmerz/cordova-plugin-fingerprint-aio.git"
+    },
+    "scripts": {},
+    "version": "0.0.1"
+}
